@@ -1,0 +1,16 @@
+.container-produits-2 {
+    display:flex;
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%; /* Ajustez la largeur en fonction de votre mise en page */
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding: 0 10px; /* Ajoutez un espacement entre les produits si nécessaire */
+  }
+  
+  .produit {
+    /* Styles pour chaque produit */
+    text-align: center;
+  }

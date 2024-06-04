@@ -1,0 +1,54 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+a.navbar-brand span {
+    padding: 0px 5px 0px 0px;
+}
+
+section article {
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #e7e7e7;
+}
+section article:last-of-type {
+    border: none;
+}
+    section article p a {
+        float: right;
+    }
+
+section h1 {
+    margin-bottom: 40px;
+}
+    section h1 span {
+        font-size: 30px;
+    }
+    section h1 a {
+        float: right;
+    }
+
+aside h2 span {
+    font-size: 23px;
+}
+
+aside div.jumbotron {
+    min-height: 400px;
+    padding: 20px !important;
+}
+
+
+form.contact {
+    margin-bottom: 50px;
+}
+    form.contact textarea {
+        height: 150px;
+    }
+    form.contact button {
+        float: right;
+    }

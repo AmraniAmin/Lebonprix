@@ -1,0 +1,78 @@
+.contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 2fr));
+    gap: .1rem;
+    padding: 20px;
+    width:90%;
+    margin: auto;
+}
+
+.contact .adresse .maps iframe{
+    width:600px ;
+    height:350px ;
+    border: none;
+}
+
+
+/* Style du formulaire */
+.contact .formulaire form {
+    max-width: 35rem;
+    margin:  0 10px auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Style des titres */
+ .contact .formulaire h1, p {
+    text-align: center;
+    color: #0923e6;
+  }
+  
+  /* Style des labels et des champs */
+  .contact .formulaire  select, textarea {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 5px;
+   
+    
+  }
+  .contact .formulaire input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 3rem;
+    padding: .3rem;
+  }
+
+  .contact .formulaire label {
+    text-transform: uppercase;
+  }
+  
+  /* Style des champs requis */
+  .contact .formulaire label:after {
+    content: " *";
+    color: red;
+  }
+  
+  /* Style du bouton */
+  .contact .formulaire  input[type="submit"] {
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style du bouton au survol */
+  .contact .formulaire input[type="submit"]:hover {
+    background-color: #0066cc;
+  }
+
+  /* .container header .nav-menu .menu ul li a{
+    width: 100%;
+    margin: 0px;
+  } */

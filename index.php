@@ -51,7 +51,7 @@ if ($con) {
           <img class="logolebonprix" src="./images/logolebonprix.jpg" alt="">
         </div>
         <div class="lebonprix">
-          <h3>lebonprix drive : en cours</h2>
+          <h3>Lebonprix drive : en cours</h2>
             <p>epicerie fine de qualité</p>
         </div>
 
@@ -95,249 +95,169 @@ if ($con) {
       </nav>
 
       <!-- menu de navigation Menu item Accueil, Epicerie Fine ... -->
-      <nav class="nav-menu deuxieme">
-        <div class="menu">
-          <a href="#" id="hamburger-icon" class="mobile-toggler"><i class="fas fa-bars"></i></a>
-          <ul class="main-menu">
-            <li class="menu-item"><a href="index.php" class="active">Accueil</a></li>
-
-            <!-- menu epicerie  -->
-            <li class="menu-item mega-menu-cave">
-              <a href="./lien/epiceriesucre.php">Epicerie Fine</a>
-              <div class="mega-menu-wrapper slideInUp">
-                <div class="mega-menu-col">
-                  <a href="./lien/epiceriesucre.php">
-                    <h5> Epicerie sucrée</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/epiceriesucre.php">Pâtes à tartiner, confitures et miels</a></li>
-                    <li><a href="./lien/epiceriesucre.php">Biscuits et gâteaux </a></li>
-                    <li><a href="./lien/epiceriesucre.php">Desserts </a></li>
-                    <li><a href="./lien/epiceriesucre.php">Sucres et farines</a></li>
-                    <li><a href="./lien/epiceriesucre.php">Chocolats et confiserie</a></li>
-                    <li><a href="./lien/epiceriesucre.php">Fruits secs et fruits séchés</a></li>
-                    <li><a href="./lien/epiceriesucre.php#cafethe">Café, thé et boissons chaudes</a></li>
-                    <li><a href="./lien/epiceriesucre.php">Céréales petit-déjeuner</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-
-                  <a href="./lien/Epiceriesalee.php">
-                    <h5> Epicerie salée</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/Epiceriesalee.php#fruitsSecs">Fruits Secs et Apéritifs</a></li>
-                    <li><a href="./lien/Epiceriesalee.php#">Pâtes, riz, graines et céréales </a></li>
-                    <li><a href="./lien/Epiceriesalee.php#">Conserves et bocaux</a></li>
-                    <li><a href="./lien/Epiceriesalee.php#">Plats cuisinés et soupes : </a></li>
-                    <li><a href="./lien/Epiceriesalee.php#">Huiles et vinaigres </a></li>
-                    <li><a href="./lien/Epiceriesalee.php#">Sauces et Condiments </a></li>
-                  </ul>
-                </div>
-
-              </div>
-            </li>
-
-            <!-- menu  cave -->
-            <li class="menu-item mega-menu-cave ">
-              <a href="lien/cavevins.php">Cave</a>
-              <div class="mega-menu-wrapper slideInUp">
-                <div class="mega-menu-col">
-                  <a href="./lien/caveChampagnes.php">
-                    <h5> Champagnes</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/caveChampagnes.php#">Bruts</a></li>
-                    <li><a href="./lien/caveChampagnes.php#"> Rosés</a></li>
-                    <li><a href="./lien/caveChampagnes.php#">Blanc de Blancs</a></li>
-                    <li><a href="./lien/caveChampagnes.php#">Millésimés</a></li>
-                    <li><a href="./lien/caveChampagnes.php#">Grandes cuvées de Vignerons</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/caveVins.php">
-                    <h5> Vins</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/caveVins.php#">Nos coups de cœur 1ere grand cru</a></li>
-                    <li><a href="./lien/caveVins.php#">Touraine</a></li>
-                    <li><a href="./lien/caveVins.php#">Bordeaux</a></li>
-                    <li><a href="./lien/caveVins.php#">Bourgogne</a></li>
-                    <li><a href="./lien/caveVins.php#">Vallée du Rhone</a></li>
-                    <li><a href="./lien/caveVins.php#">Vallée de la Loire</a></li>
-                    <li><a href="./lien/caveVins.php#">Provence</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/caveBieres.php">
-                    <h5> Bières</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/caveBieres.php#">Bières IPA</a></li>
-                    <li><a href="./lien/caveBieres.php#">Blondes</a></li>
-                    <li><a href="./lien/caveBieres.php#">Blanches</a></li>
-                    <li><a href="./lien/caveBieres.php#">Brunes</a></li>
-                    <li><a href="./lien/caveBieres.php#">AmbréesRousses</a></li>
-                    <li><a href="./lien/caveBieres.php#">Ambrées</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/caveCidres.php">
-                    <h5> Cidres et poirés</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/caveCidres.php#">Cidre rosé</a></li>
-                    <li><a href="./lien/caveCidres.php#">Bio</a></li>
-                    <li><a href="./lien/caveCidres.php#">Brut </a></li>
-                    <li><a href="./lien/caveCidres.php#">Artisanal</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/caveLimonades.php">
-                    <h5> Eaux et Limonades</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/caveLimonades.php#">Artisanale </a></li>
-                    <li><a href="./lien/caveLimonades.php#">French Tonic Boisson au CBD </a></li>
-                    <li><a href="./lien/caveLimonades.php#">Boisson au CBD </a></li>
-                    <li><a href="./lien/caveLimonades.php#">Autres</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/caveSansAlcool.php">
-                    <h5> Sans alcool</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/caveSansAlcool.php#">Vin Blanc </a></li>
-                    <li><a href="./lien/caveSansAlcool.php#">Rosé </a></li>
-                    <li><a href="./lien/caveSansAlcool.php#">Bulles de Luxe </a></li>
-                    <li><a href="./lien/caveSansAlcool.php#">Spiritueux </a></li>
-                    <li><a href="./lien/caveSansAlcool.php#">Autres</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/caveJusSirops.php">
-                    <h5> Jus et sirops</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/caveJusSirops.php#">Artisanal Jus d'abricot </a></li>
-                    <li><a href="./lien/caveJusSirops.php#">Raisin </a></li>
-                    <li><a href="./lien/caveJusSirops.php#">Betterave </a></li>
-                    <li><a href="./lien/caveJusSirops.php#">Yuzu </a></li>
-                    <li><a href="./lien/caveJusSirops.php#">Mandarine</a></li>
-                    <li><a href="./lien/caveJusSirops.php#">Nectars de Poire</a></li>
-                    <li><a href="./lien/caveJusSirops.php#">Banane </a></li>
-                    <li><a href="./lien/caveJusSirops.php#">Autres</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/caveAutres.php">
-                    <h5>Autres</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/caveAutres.php#">Découvrir ICI </a></li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-
-            <!-- menu Bio -->
-            <li class="menu-item dropdown">
-              <a href="./lien/Bio.php#">Bio</a>
-              <div class="sub-menu-wrapper slideInUp">
-                <ul class="sub-menu">
-                  <li class="menu-item"><a href="./lien/Bio.php#">Bio 1</a></li>
-                  <li class="menu-item"><a href="./lien/Bio.php#">Bio 1</a></li>
-                  <li class="menu-item"><a href="./lien/Bio.php#">Bio 1</a></li>
+      <nav class="navbar-third">
+    <div class="container-menu">
+        <input type="checkbox" id="check">
+        
+        <div class="nav-btn">
+            <div class="nav-links">
+                <ul>
+                    <li class="nav-link" style="--i: 1.1s">
+                        <a href="site1.php">Accueil</a>
+                    </li>
+                    
+                    <li class="nav-link" style="--i: 1.1s">
+                        <a href="#">Épicerie Fine</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="#">Salé</a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown-link">
+                                                <a href="#">Fruits Secs et Apéritifs</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Pâtes, riz, graines et céréales</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Plats cuisinés et soupes</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Huiles et vinaigres</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Sauces et Condiments</a>
+                                            </li>
+                                            <div class="arrow"></div>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="#">Sucré</a>
+                                    <div class="dropdown second">
+                                        <ul>
+                                            <li class="dropdown-link">
+                                                <a href="#">Pâtes à tartiner, confitures et miels</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Biscuits et gâteaux</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Desserts</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Sucres et farines</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Chocolats et confiserie</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Fruits secs et fruits séchés</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Café, thé et boissons chaudes</a>
+                                            </li>
+                                            <li class="dropdown-link">
+                                                <a href="#">Céréales petit-déjeuner</a>
+                                            </li>
+                                            <div class="arrow"></div>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link" style="--i: 1.1s">
+                        <a href="cave.php">Cave</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="champagnes.php">Champagnes</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="vins.php">Vins</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="bieres.php">Bières</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="cidres.php">Cidres et poirés</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="jus.php">Jus et sirops</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="eaux.php">Eaux et Limonades</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="sans-alcool.php">Sans alcool</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link" style="--i: 1.1s">
+                        <a href="viandes.php">Viandes terre et mer</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="buf.php">Bœuf</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="agneau.php">Agneau</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="poulet.php">Poulet et dinde</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="fruits-de-mer.php">Fruits de Mer, Huîtres et Crustacés</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="saumon.php">Saumon fumé</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="fruite.php">Poisson fumé</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="autre.php">Autres</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link" style="--i: 1.1s">
+                        <a href="coffrets.php">Coffrets & Cadeaux</a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link">
+                                    <a href="coffret1.php">Coffret Les Gourmandises N°1</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="coffret2.php">Coffret boîte carton</a>
+                                </li>
+                                <li class="dropdown-link">
+                                    <a href="coffret3.php">Éditions limitées de Noël</a>
+                                </li>
+                                <div class="arrow"></div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link" style="--i: 1.35s">
+                        <a href="merveille.php">Merveille du monde</a>
+                    </li>
                 </ul>
-              </div>
-            </li>
-
-            <!-- menu Coffret -->
-            <li class="menu-item dropdown">
-              <a href="./lien/Coffret.php#">Coffret</a>
-              <div class="sub-menu-wrapper slideInUp">
-                <ul class="sub-menu">
-                  <li class="menu-item"><a href="./lien/Coffret.php#">Les Gourmandises</a></li>
-                  <li class="menu-item"><a href="./lien/Coffret.php#">Boite carton</a></li>
-                  <li class="menu-item"><a href="./lien/Coffret.php#">Editions limitées de Noël</a></li>
-                </ul>
-              </div>
-            </li>
-
-            <!-- menu Merveille du Monde -->
-            <li class="menu-item dropdown">
-              <a href="./lien/merveilleMonde.php">Merveille du Monde</a>
-              <div class="sub-menu-wrapper slideInUp">
-                <ul class="sub-menu">
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 1</a></li>
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 2</a></li>
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 2</a></li>
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 3</a></li>
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 4</a></li>
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 5</a></li>
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 6</a></li>
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 7</a></li>
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 8</a></li>
-                  <li class="menu-item"><a href="./lien/merveilleMonde.php#">Merveille 9</a></li>
-                </ul>
-              </div>
-            </li>
-
-            <!-- menu Viande -->
-            <li class="menu-item mega-menu-cave ">
-              <a href="#">Viande</a>
-              <div class="mega-menu-wrapper slideInUp">
-                <div class="mega-menu-col">
-                  <a href="./lien/viandeTerres.php">
-                    <h5> Viandes terre</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/viandeTerres.php#">Bœuf </a></li>
-                    <li><a href="./lien/viandeTerres.php#"> Agneau </a></li>
-                    <li><a href="./lien/viandeTerres.php#">Autres</a></li>
-                    <li><a href="./lien/viandeTerres.php#">...</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/viandeBoxAngneux.php">
-                    <h5> Box Agneau Touraine</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/viandeBoxAngneux.php#"> Agneau </a></li>
-                    <li><a href="./lien/viandeBoxAngneux.php#">Traçabilité De la ferme à l'assiette </a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/viandeMer.php">
-                    <h5> Viande Mer</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/viandeMer.php#">Fruits de Mer, Huîtres et Crustacés </a></li>
-                    <li><a href="./lien/viandeMer.php#">Saumon fumé </a></li>
-                    <li><a href="./lien/viandeMer.php#">Truite fumée</a></li>
-                  </ul>
-                </div>
-                <div class="mega-menu-col">
-                  <a href="./lien/viandePoulets.php">
-                    <h5> Poulet et dinde</h5>
-                  </a>
-                  <ul class="mega-sub-menu">
-                    <li><a href="./lien/viandePoulets.php#">Box Poulet du Sud-Ouest </a></li>
-                    <li><a href="./lien/viandePoulets.php#">Cuisses de poulet 5kg </a></li>
-                    <li><a href="./lien/viandePoulets.php#">Filet de Poulet 5kg </a></li>
-                    <li><a href="./lien/viandePoulets.php#">Pinot de poulet 5kg</a></li>
-                    <li><a href="./lien/viandePoulets.php#">Cuisse de dinde </a></li>
-                    <li><a href="./lien/viandePoulets.php#">Autres </a></li>
-                  </ul>
-                </div>
-              </div>
-            </li>
-          </ul>
-
+            </div>
         </div>
 
-      </nav>
+        <div class="hamburger-menu-container">
+            <div class="hamburger-menu">
+                <div></div>
+            </div>
+        </div>
+    </div>
+</nav>
+
     </header>
 
     <!-- Corps de la page -->
@@ -531,6 +451,8 @@ if ($con) {
         ]
       });
     });
+
+    
   </script>
 
 </body>

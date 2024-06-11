@@ -1048,14 +1048,6 @@ main .container-slider .slider  {
     background-color: #c6d1cb;
   }
   /* Navigation responsive */
-
-
-
-.navbar-third{
-
-  
-}
-
 ul{
   list-style: none;
 }
@@ -1111,7 +1103,7 @@ a{
 }
 
 .btn.solid, .btn.transparent:hover{
-  background-color: white;
+  background-color: rgb(164, 164, 164);
   color:black;
 }
 
@@ -1160,7 +1152,7 @@ a{
   top: 100%;
   left: 0;
   width: 20rem;
-  padding: 0;
+  padding: 0rem;
   transform: translateY(10px);
   opacity: 0;
   pointer-events: none;
@@ -1177,7 +1169,7 @@ a{
 
 .dropdown-link > a{
   display: flex;
-  background-color: white;
+  background-color: rgb(164, 164, 164);
   color: black;
   padding: .5rem 1rem;
   font-size: .9rem;
@@ -1187,7 +1179,7 @@ a{
 }
 
 .dropdown-link:hover > a{
-  background-color: gainsboro;
+  background-color: rgb(164, 164, 164);
   color: black;
 }
 
@@ -1205,7 +1197,7 @@ a{
   height: 11px;
   top: -5.5px;
   left: 32px;
-  background-color: white;
+  background-color: rgb(164, 164, 164);
   transform: rotate(45deg);
   cursor: pointer;
   transition: .3s;
@@ -1224,11 +1216,13 @@ a{
 .dropdown.second{
   top: 0;
   left: 100%;
-  padding-left: .8rem;
+  padding-left: .4rem;
   cursor: pointer;
   transform: translateX(10px);
 }
-
+.dropdown.second ul{
+padding: 0rem;
+}
 .dropdown.second .arrow{
   top: 10px;
   left: -5.5px;
@@ -1342,7 +1336,7 @@ a{
      
       left: 0;
       width: 100%;
-      background-color: gainsboro;
+      background-color: rgb(164, 164, 164);
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
@@ -1386,7 +1380,7 @@ a{
 
   .nav-link:hover > a{
       transform: scale(1);
-      background-color: white;
+      background-color: rgb(164, 164, 164);
       border: 1px solid black;
       color: black;
   }
@@ -1400,7 +1394,7 @@ a{
       pointer-events: auto;
       width: 100%;
       padding: 0;
-      background-color: white;
+      background-color: rgb(164, 164, 164);
       display: none;
   }
   
@@ -1436,14 +1430,14 @@ a{
 
   .arrow{
       z-index: 1;
-      background-color: gainsboro;
+      background-color: rgb(164, 164, 164);
       left: 10%;
       transform: scale(1.1) rotate(45deg);
       transition: .5s;
   }
 
   .nav-link:hover .arrow{
-      background-color: gainsboro;
+      background-color: white;
   }
 
   .dropdown .dropdown .arrow{
@@ -1451,11 +1445,11 @@ a{
   }
 
   .dropdown-link:hover > a{
-      background-color: gainsboro;
+      background-color: white;
   }
 
   .dropdown-link:first-child:hover ~ .arrow{
-      background-color: gainsboro;
+      background-color: white;
   }
 
   .nav-link > a > i{

@@ -1159,7 +1159,8 @@ a{
   position: absolute;
   top: 100%;
   left: 0;
-  width: 10rem;
+  width: 20rem;
+  padding: 0;
   transform: translateY(10px);
   opacity: 0;
   pointer-events: none;
@@ -1168,6 +1169,7 @@ a{
 
 .dropdown ul{
   position: relative;
+  width: 100%;
 
   
 
@@ -1216,6 +1218,7 @@ a{
 
 .dropdown-link{
   position: relative;
+  width: 100%;
 }
 
 .dropdown.second{
@@ -1404,6 +1407,7 @@ a{
   .nav-link:hover > .dropdown,
   .dropdown-link:hover > .dropdown{
       display: block;
+    
   }
 
   .nav-link:hover > a > i,

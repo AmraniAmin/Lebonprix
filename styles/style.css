@@ -1128,7 +1128,7 @@ a{
 
 .nav-link > a{
   line-height: 3rem;
-  color: black;
+  color: rgb(40, 40, 146);
   padding: 0 .8rem;
   letter-spacing: 1px;
   font-size: .95rem;
@@ -1137,6 +1137,7 @@ a{
   justify-content: space-between;
   transition: .5s;
   font-size: 1rem;
+  font-weight: bold;
 }
 
 .nav-link > a > i{
